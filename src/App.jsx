@@ -15,7 +15,6 @@ import PageNotFound from "./pages/404/PageNotFound";
 function App() {
   const dispatch = useDispatch();
   const { url } = useSelector((state) => state.home);
-  console.log(url);
 
   useEffect(() => {
     fetchApiConfig();
